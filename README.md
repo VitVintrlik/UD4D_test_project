@@ -12,7 +12,7 @@ Vzhledem k tomu, že se jedná o opravdu malý testovací projekt, nejsou něktr
 ani jsem nebral v potaz production a devel deployment ci .env promene, v tomto pripade nejsou potreba vubec. <br>
 Pokud byste chtěli abych projekt více rozšířil a ukázal tak svoje schopnosti, není problém, dejte mi prosím vědět. <br>
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Link to view it in the browser will be diplayed in console.
