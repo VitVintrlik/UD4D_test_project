@@ -9,8 +9,8 @@ const validate = (values: FormValues): object|FormValues => {
         errors.password = 'Heslo musí být delší než 6 znaků';
     }
 
-    //This regex could have been shorter but it was the most suitable i found
-    if (!/^(?=[^@]{5,}@)([\w-]*[a-zA-Z0-9_]@[\w-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z]*[a-zA-Z])$/i.test(values.email)) {
+    //This regex could have been shorter but it was the most suitable I found
+    if (!/^(?=[^@]{5,}@)([\w-]*[a-z0-9_]@[\w-]*[a-z0-9]\.[a-z][a-z]*[a-z])$/i.test(values.email)) {
         errors.email = 'Neplatné přihlašovací jméno';
     }
 
