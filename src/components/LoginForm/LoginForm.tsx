@@ -17,6 +17,12 @@ interface FormValues {
     password: string;
 }
 
+/**
+ * Since Material UI was recommended I used to build this simple login form,
+ * form handling is done by formik and validation is executed onSubmit
+ * @param props
+ * @constructor
+ */
 export default function LoginForm(props: LoginFormProps) {
     const initialValues: FormValues = {email: '', password: ''}
 

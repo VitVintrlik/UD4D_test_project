@@ -6,13 +6,19 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import {createTheme, ThemeProvider} from "@mui/material/styles";
 
-export interface Popup {
+export interface PopupProps {
     content: string;
-
     setContent(data: string): void;
 }
 
-export default function SimpleDialog(props: Popup) {
+/**
+ * Popup takes string content and displays it.
+ * Would be great if popups were displayed by some global hook, dispatcher or Redux
+ * but for our small project I think this method is sufficient
+ * @param props
+ * @constructor
+ */
+export default function Popup(props: PopupProps) {
     const handleClose = () => {
         props.setContent('');
     };
