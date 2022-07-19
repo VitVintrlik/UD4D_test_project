@@ -1,7 +1,7 @@
 # UD4D_test_project
 Projekt není potřeba není pořeba rozjíždět lokálně deploynul jsem jej na: https://ud4dtestproject.netlify.app/ <br>
 Pokud byste chtěl rozjet návod níže. <br>
-Jako bundlovací knihovnu jsem použil Vite. <br> <br>
+Na bundlování jsem použil Vite. <br> <br>
 Jak bylo doporučeno použil jsem Material UI, tudíž jsem tímto eliminoval potřebu mít spousty css souborů. <br>
 Správné přihlašovací údaje jsou natrdo na backendu. <br><br>
 Přihlašovací jméno: valid@email.cz <br>
