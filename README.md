@@ -8,4 +8,5 @@ Heslo: heslo123 <br>
 Ať už se ověření povede nebo ne, vyskočí minipopup s hláškou o úspěšnosti. <br>
 Ověření validity přihlašovacích údajů probíhá již na client-side pomocí regexu. <br>
 Vzhledem k tomu, že se jedná o opravdu malý testovací projekt, nejsou něktré věci(popup) udělané nejlépe škálovatelně. <br>
+ani jsem nebral v potaz production a devel deployment ci .env promene, v tomto pripade nejsou potreba vubec. <br>
 Pokud byste chtěli abych projekt více rozšířil a ukázal tak svoje schopnosti, není problém, dejte mi prosím vědět. <br>
